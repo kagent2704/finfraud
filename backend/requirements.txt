@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy==2.0.19
+aiomysql
+python-dotenv
+passlib[bcrypt]
+PyJWT
+joblib
+pandas
+numpy
+scikit-learn
+xgboost
