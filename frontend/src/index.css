@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* extra custom styles */
+.hero-bg {
+  background: radial-gradient(ellipse at center, rgba(99,102,241,0.12), transparent 40%),
+              linear-gradient(135deg, rgba(16,185,129,0.06), rgba(59,130,246,0.06));
+  transition: transform 0.5s ease;
+}
+
+.rotate-on-scroll {
+  transition: transform 0.3s ease;
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 60s linear infinite;
+}
